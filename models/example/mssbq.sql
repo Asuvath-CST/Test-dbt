@@ -1,7 +1,7 @@
 with 
 {{config(materialized='view')}}
 
-bqdbt as (select * from cloudside-academy.asuvathdbt.dbtmsq
+bqdbt as (select * from cloudside-academy.asuvathdbt.Branch
 ),
 
 bqviewms as (
